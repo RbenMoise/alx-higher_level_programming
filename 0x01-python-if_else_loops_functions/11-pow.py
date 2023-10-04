@@ -5,5 +5,5 @@ def pow(a, b):
         a = 1 / a
         b = -b
     for _ in range(b):
-        result * = a
+        result *= a
     return result
