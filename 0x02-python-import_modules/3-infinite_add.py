@@ -6,4 +6,4 @@ if __name__ == "__main__":
 
     for i in numbers:
         sum += int(i)
-        print("{}".format(sum))
+    print("{}".format(sum))
