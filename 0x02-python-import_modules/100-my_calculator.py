@@ -10,13 +10,13 @@ if __name__ == "__main__":
     b = int(sys.argv[3])
 
     if opt == '+':
-        result = add(a,b)
+        result = add(a, b)
     elif opt == '-':
-        result = mul(a,b)
-    elif opt == 'i':
-        result == sub(a,b)
+        result = sub(a, b)
+    elif opt == '*':
+        result == mul(a, b)
     elif opt == '/':
-        result = div(a,b)
+        result = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
