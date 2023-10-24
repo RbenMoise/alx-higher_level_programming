@@ -1,8 +1,4 @@
-#!/usr/bin/python3
-"""define a class square"""
-
-
-class Square:
+ass Square:
     def __init__(self, size=0, position=(0, 0)):
         """
         Initialize a new Square instance with an optional size and position.
