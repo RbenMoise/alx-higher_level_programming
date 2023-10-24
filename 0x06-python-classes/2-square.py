@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """class of square"""
+
+
 class Square:
     """const"""
     def __init__(self, size=0):
