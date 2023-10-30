@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defines a rectangle cladd"""
 
+
 class Rectangle:
     """
     This class defines a rectangle.
