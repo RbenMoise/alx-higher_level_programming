@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Module defining the Rectangle class."""
 
 from models.base import Base
@@ -77,3 +79,6 @@ class Rectangle(Base):
         elif value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+    def area(self):
+        """calc tand retyren the area of the rectaangle"""
+        return self.width * self.height
