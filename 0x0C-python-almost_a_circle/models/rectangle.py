@@ -6,7 +6,7 @@
 from models.base import Base
 
 class Rectangle(Base):
-    """Rectangle class, inherits from Base."""
+"""Rectangle class, inherits from Base."""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize Rectangle instance.
@@ -80,5 +80,15 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
         self.__y = value
     def area(self):
+
         """calc tand retyren the area of the rectaangle"""
         return self.width * self.height
+    def display(self):
+        """use # to print the rectangle"""
+
+        if self.width == 0 or self.height == 0:
+            print("")
+            return
+        else:
+            for _ in range(self.height):
+                print("#" * self.width)
